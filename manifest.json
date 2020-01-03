@@ -1,0 +1,37 @@
+{
+    "name": "Copy Cat",
+    "version": "0.1",
+    "description": "Easy copy text and code",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "run_at": "document_end",
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "images/cc16.png",
+            "32": "images/cc32.png",
+            "48": "images/cc48.png",
+            "128": "images/cc128.png"
+        }
+    },
+    "icons": {
+        "16": "images/cc16.png",
+        "32": "images/cc32.png",
+        "48": "images/cc48.png",
+        "128": "images/cc128.png"
+    },
+    "manifest_version": 2
+}
