@@ -1,7 +1,6 @@
 "use strict";
 
 console.log('%c ALT+CLICK copy and append to clipboard', 'color: #cc00cc;, padding: 16px; font-size: 20px; font-weight: bold');
-console.log('Multiple selections are welcome!')
 
 var TXTS = [];
 document.addEventListener('click', function altCopyFunction(e) {
