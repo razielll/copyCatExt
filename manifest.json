@@ -1,7 +1,7 @@
 {
     "name": "Copy Cat",
-    "version": "0.1",
-    "description": "Easy copy text and code",
+    "version": "0.9",
+    "description": "Copy and append any text on the web to clipboard",
     "permissions": [
         "activeTab"
     ],
