@@ -1,5 +1,5 @@
 # Copy Cat chrome extension
-Source code
+Copy and append any text on the web to clipboard
 
-Store page
+## Store page
 https://chrome.google.com/webstore/detail/copy-cat/dncdlnjdgkjgbinemhemojikbokcadjk?hl=en-US
